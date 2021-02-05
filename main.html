@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siravit</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@800&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.9.0rc1.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.0.0rc1.js"></script>
+<script src="https://kit.fontawesome.com/54cecfcf8f.js" crossorigin="anonymous"></script>
+<script>
+    function load(id,path){
+        $(function(){
+            $(id).load(path)
+        })
+    }
+</script>
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="headerarea">
+                <p></p>
+                
+            </div>
+        </div>
+    </header>
+    <div class="menu">
+        <div class="container">
+            <div class="topimage">
+                <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-shield-alt"></i> &nbsp;Siravit Dontumpai</h1>
+            </div>
+            <ul class="ul">
+                <li>
+                    <div onclick="load('#content','home.html')">Home</div>
+                </li>
+                <li>
+                    <div onclick="load('#content','profile.html')">Profile</div>
+                </li>
+                <li>
+                    <div onclick="load('#content','education.html')">Education</div>
+                </li>
+                <li>
+                    <div onclick="load('#content','contact.html')">Contact</div>
+                </li>
+                <li>
+                    <div onclick="load('#content','Knowledge.html')">Knowledge</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="content"></div>
+
+    <script>
+        load('#content','home.html')
+    </script>
+</body>
+</html>

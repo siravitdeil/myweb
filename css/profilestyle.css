@@ -1,0 +1,74 @@
+.pfcontainer{
+  padding: 0 300px;
+  display: grid ;  
+  grid-template-columns: 1fr 300px;
+  background-color: #e2e2e2;
+}
+
+.pfimage{
+    background-image: url("/image/pf1.jpg") ;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.pfinformation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darksalmon;
+    font-size: 30px;
+}
+
+.pfcontainer1{
+    padding: 0 300px;
+    display: grid ;  
+    grid-template-columns: 1fr;
+    background-color: #e2e2e2;
+  }
+.pfinformation1{
+  height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    font-size: 30px;    
+}
+.pfcontainer2{
+  padding: 0 300px;
+  background-color: #e2e2e2;
+}
+.myfav{
+  text-align: center;
+  font-size: 30px;
+  background-color: lightpink;
+  padding: 20px;
+}
+.pfcontainer3{
+  padding: 0 300px;
+  display: grid ;  
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #e2e2e2;
+}
+
+.pfgrid{
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: lightpink;
+}
+
+.pfimage1{
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.pftext{
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+
