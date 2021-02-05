@@ -6,7 +6,7 @@
 }
 
 .pfimage{
-    background-image: url("/image/pf1.jpg") ;
+    background-image: url("../image/pf1.jpg") ;
     height: 300px;
     background-repeat: no-repeat;
     background-position: center;
