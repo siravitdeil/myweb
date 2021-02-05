@@ -10,8 +10,10 @@
 <script src="https://code.jquery.com/jquery-1.9.0rc1.js"></script>
 <script src="https://code.jquery.com/jquery-migrate-1.0.0rc1.js"></script>
 <script src="https://kit.fontawesome.com/54cecfcf8f.js" crossorigin="anonymous"></script>
+
 <script>
     function load(id,path){
+        path='https://raw.githubusercontent.com/siravitdeil/myweb/master/' + path;
         $(function(){
             $(id).load(path)
         })
