@@ -19,6 +19,8 @@
     align-items: center;
     background-color: darksalmon;
     font-size: 30px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .pfcontainer1{
@@ -33,7 +35,9 @@
     justify-content: center;
     align-items: center;
     background-color: skyblue;
-    font-size: 30px;    
+    font-size: 30px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Rubik', sans-serif;    
 }
 .pfcontainer2{
   padding: 0 300px;
@@ -70,5 +74,58 @@
   padding: 5px;
   text-align: center;
   font-size: 25px;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
+.myfav{
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+
+.grid-img{
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.education-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 60px 150px;
+  height: calc(100vh - 340px);
+  background-color:  #2C3E50;
+}
+
+.grid{
+  margin: 0 auto;
+  background-color: #E6B0AA;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.28);
+  -moz-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.28);
+  box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.28);
+  transition: all .5s ease;
+  height: fit-content;
+}
+
+.grid:hover{
+  background-color: #F1948A;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+.grid-topic{
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.grid-info{
+  margin-top: 10px;
+}

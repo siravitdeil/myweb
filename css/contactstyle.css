@@ -1,0 +1,32 @@
+
+.ctcontainer1{
+    padding: 0 300px;
+    display: grid;
+    grid-template-columns: 120px auto;
+    background-color: dimgray;
+}
+.ctinformation1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: dimgray;
+    font-size: 30px; 
+}
+.cttext{
+    text-align: left;
+    color: whitesmoke;
+    font-family: 'Rubik', sans-serif;
+    
+}
+.ctimage{
+    text-align: center;
+}
+
+@media only screen and (max-width:300px){
+    .ctcontainer1{
+        grid-template-columns: 120px;
+    }
+    .ctimage{
+        grid-template-columns: 120px;
+    }
+}

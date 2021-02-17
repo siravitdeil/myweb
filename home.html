@@ -25,6 +25,35 @@
 <div class="bghome">
     <div class="hometext">
         <p >Hello everyone <br> <br> Welcome to my webpage <br><br> Siravit Dontumpai 62010949</p>
+        <div id="date"></div>
+        <div id="days"></div>
     </div>
+    <script>
+        let Day = []
+        setInterval(()=>{
+            let date = new Date();
+            document.getElementById('date').innerHTML = date.getDate()+'/'+date.getMonth()+'/'+date.getFullYear();
+            document.getElementById('date').innerHTML += ' '+date.getHours()+':'+date.getMinutes()+':'+date.getSeconds();
+            document.getElementById('days').innerHTML = date.getDay();
+            if(date.getDay() == 0) document.getElementById('days').innerHTML='Sunday';
+            if(date.getDay() == 1) document.getElementById('days').innerHTML='Monday';
+            if(date.getDay() == 2) document.getElementById('days').innerHTML='Tuesday';
+            if(date.getDay() == 3) document.getElementById('days').innerHTML='Wednesday';
+            if(date.getDay() == 4) document.getElementById('days').innerHTML='Thursday';
+            if(date.getDay() == 5) document.getElementById('days').innerHTML='Friday';
+            if(date.getDay() == 6) document.getElementById('days').innerHTML='Saturday';
+            if(date.getHours() > 0 && date.getHours() < 12) document.getElementById('days').innerHTML += ' Good Morning' ;
+            if(date.getHours() > 12 && date.getHours() < 18) document.getElementById('days').innerHTML += ' Good Afternoon' ;
+            else document.getElementById('days').innerHTML += ' Good Evening' ;
+        },1000);
+
+        // setInterval(time,1000);
+
+        // function time(){
+        //     let date = new Date();
+        //     document.getElementById('date').innerHTML = date.getDate()+'/'+date.getMonth()+'/'+date.getFullYear();
+        //     document.getElementById('date').innerHTML += ' '+date.getHours()+':'+date.getMinutes()+':'+date.getSeconds();
+        // }
+    </script>
 </div>
 
