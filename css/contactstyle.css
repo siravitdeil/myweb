@@ -2,14 +2,14 @@
 .ctcontainer1{
     padding: 0 300px;
     display: grid;
-    grid-template-columns: 120px auto;
-    background-color: dimgray;
+    grid-template-columns: 200px auto;
+    background-color: rgb(19, 19, 48);
 }
 .ctinformation1{
     display: flex;
     justify-content: left;
     align-items: center;
-    background-color: dimgray;
+    background-color: rgb(19, 19, 48)y;
     font-size: 30px; 
 }
 .cttext{

@@ -1,0 +1,53 @@
+.klcontainer1{
+    background-image: url('../image/manuu.png');
+    background-repeat: no-repeat;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.klinformation1{
+    padding: 20px 50px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 2;
+    color: seashell;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.klcontainer2{
+    background-image: url('../image/hbg3.jpg');
+    margin-bottom: 20px;
+}
+.klinformation2{
+    padding: 20px 50px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: bold;
+    color: cornsilk;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.klcontainer3{
+    background-image: url('../image/bitcoin.jpg') ;
+
+}
+.klinformation3{
+    padding: 20px 50px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: bold;
+    color: snow;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.alls{
+    background-color: darkgray;
+}

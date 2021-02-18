@@ -97,7 +97,7 @@
   grid-template-columns: repeat(4,1fr);
   padding: 60px 150px;
   height: calc(100vh - 340px);
-  background-color:  #2C3E50;
+  background-color:  #20272e;
 }
 
 .grid{

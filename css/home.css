@@ -1,0 +1,52 @@
+ @import url(https://fonts.googleapis.com/css?family=Khula:700);
+ @import url(https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap);
+ .bgh{
+    background-image: url('../image/hbg2.jpg');
+    height: 530px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
+#date{
+    text-align: right;
+}
+#days{
+    text-align: right;
+}
+
+.time{
+    font-family: 'Chakra Petch', sans-serif;
+    color: whitesmoke;
+    font-size: 22px
+
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap');
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  margin-top: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:60px;
+	letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 
+						8px 8px steelblue,
+						20px 20px #000000;
+                        mix-blend-mode: screen;
+                        animation: fadeIn 2.5s linear forwards;                     
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
